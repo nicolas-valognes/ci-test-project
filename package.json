@@ -1,6 +1,7 @@
 {
   "name": "ci-test-project",
   "version": "1.0.0",
+  "type": "module",
   "description": "Github CI test project",
   "main": "app.js",
   "engines": {
@@ -16,5 +17,8 @@
     "eslint": "^8.57.0",
     "mocha": "^10.4.0",
     "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
